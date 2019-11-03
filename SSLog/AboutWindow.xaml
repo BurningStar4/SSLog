@@ -1,0 +1,13 @@
+﻿<Window x:Class="SSLog.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About SSLog" Height="300" Width="300" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+
+        <Viewbox Margin="10,10,0,0" Stretch="Fill">
+            <Grid x:Name="controlGrid">
+            <TextBlock x:Name="txtAbout" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="239" Width="272"><Run Text="SSLog"/><Run Language="en-au" Text=" (Shitty Simple Log) Version 0.4"/><LineBreak/><Run Language="en-au" Text="******************************************************"/><LineBreak/><Run Language="en-au" Text="This program is FREE and should always be - it's worth about that much that's for sure."/><LineBreak/><LineBreak/><Run Language="en-au" Text="******************************************************"/><LineBreak/><Run Language="en-au" Text="I should probably make this window look better."/><LineBreak/><Run Language="en-au"/><LineBreak/><Run Language="en-au"/><LineBreak/><Run Language="en-au" Text="BBN is cool"/></TextBlock>
+        </Grid>
+        </Viewbox>
+
+
+</Window>
